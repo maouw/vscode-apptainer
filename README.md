@@ -4,7 +4,7 @@ This extension provides syntax highlighting for Apptainer/Singularity definition
 
 ## Preview
 
-![Preview](images/preview.png)
+<img src="https://raw.githubusercontent.com/maouw/vscode-apptainer/main/images/preview.png" alt="preview" width="718"/>
 
 ## Known Issues
 
