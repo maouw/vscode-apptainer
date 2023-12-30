@@ -1,0 +1,4 @@
+Singularity.* linguist-language=Singularity
+Apptainer linguist-language=Singularity
+Apptainer.* linguist-language=Singularity
+*.def linguist-language=Singularity

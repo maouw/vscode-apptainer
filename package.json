@@ -1,0 +1,52 @@
+{
+  "name": "vscode-apptainer",
+  "displayName": "vscode-apptainer",
+  "description": "Syntax highlighting for Apptainer definition files with improved support for embedded shell scripts.",
+  "version": "0.0.1",
+  "icon": "images/icon256.png",
+  "publisher": "maouw",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maouw/vscode-apptainer.git"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "apptainer",
+        "aliases": [
+          "Apptainer",
+          "apptainer"
+        ],
+        "filenames": [
+          "Singularity",
+          "Apptainer"
+        ],
+        "filenamePatterns": [
+          "Singularity.*",
+          "Apptainer.*"
+        ],
+        "extensions": [
+          ".def"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "apptainer",
+        "scopeName": "source.apptainer",
+        "path": "./syntaxes/apptainer.tmLanguage.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.shellscript": "shellscript"
+        }
+      }
+    ]
+  }
+}
