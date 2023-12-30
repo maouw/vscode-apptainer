@@ -14,7 +14,7 @@ This extension provides syntax highlighting for Apptainer/Singularity definition
 ## Acknowledgements
 
 - [Apptainer](https://github.com/apptainer/apptainer): Test files under `test/from-apptainer` are copied from the Apptainer repository. The extension icon is based on the Apptainer logo.
-- [mo](https://github.com/tests-always-included/mo) by [Tests Always Included](https://github.com/tests-always-included/mo): A mustache templating engine in Bash. Used here to replace template strings with values.
+- [mo](https://github.com/tests-always-included/mo) by [Tests Always Included](https://github.com/tests-always-included/mo): A mustache templating engine in Bash. Used here to replace template strings with values. Included under `template/mo`.
 - [Semantic Rainbow](https://github.com/Thertzlor/semantic-rainbow) by [Thertzlor](https://github.com/Thertzlor): A Visual Studio Code color theme. Used here in the preview image.
 - [yq](https://github.com/mikefarah/yq) by [Mike Farah](https://github.com/mikefarah): A YAML processor in Go. Used here to transform language definitions from YAML to JSON.
 
